@@ -18,7 +18,6 @@ cask iterm2
 cask limechat
 cask macvim
 cask mindnode-pro
-cask slack
 cask vagrant
 cask virtualbox
 cask xquartz
@@ -120,11 +119,9 @@ appstore 478844335 Janetter
 appstore 409183694 Keynote
 appstore 715768417 Microsoft Remote Desktop
 appstore 402398561 MindNode Pro
-appstore 402398561 MindNode Pro
 appstore 409203825 Numbers
 appstore 409201541 Pages
 appstore 568494494 Pocket
-appstore 803453959 Slack
 appstore 803453959 Slack
 appstore 414298354 ToyViewer
 appstore 409789998 Twitter
