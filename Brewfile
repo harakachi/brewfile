@@ -100,6 +100,11 @@ brew brew-file
 
 tap sanemat/font
 
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask github (!)
+
 # App Store applications
 appstore 458034879 Dash
 appstore 682658836 GarageBand
