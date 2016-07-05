@@ -18,6 +18,7 @@ cask iterm2
 cask limechat
 cask macvim
 cask mindnode-pro
+cask slack
 cask vagrant
 cask virtualbox
 cask xquartz
@@ -69,6 +70,8 @@ brew nodenv
 brew openssl
 brew packer
 brew pango
+brew pcre
+brew perl
 brew pixman
 brew pkg-config
 brew popt
@@ -77,6 +80,7 @@ brew rbenv
 brew readline
 brew redis
 brew ruby-build
+brew ruby
 brew s-lang
 brew sqlite
 brew tmux
@@ -97,19 +101,9 @@ brew brew-file
 tap sanemat/font
 brew ricty
 
-# Cask applications
-cask   --caskroom=/opt/homebrew-cask/Caskroom
-
 # Below applications were installed by Cask,
 # but do not have corresponding casks.
 
-#cask Warning: The default Caskroom location has moved to /usr/local/Caskroom.
-#cask 
-#cask Please migrate your Casks to the new location, or if you would like to keep your
-#cask Caskroom at /opt/homebrew-cask/Caskroom, add the following to your HOMEBREW_CASK_OPTS:
-#cask 
-#cask 
-#cask For more details on each of those options, see https://github.com/caskroom/homebrew-cask/issues/21913.
 #cask github (!)
 
 # App Store applications
