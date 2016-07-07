@@ -65,8 +65,7 @@ brew memcached
 brew mercurial
 brew newt --with-python
 brew nkf
-brew node-build --HEAD
-brew nodenv
+brew nodebrew
 brew openssl
 brew packer
 brew pango
