@@ -6,20 +6,15 @@ tap caskroom/cask
 
 # Apps installed by Cask in caskroom/cask
 cask install appcleaner #/Applications/AppCleaner.app
-#cask install appcleaner #~/Applications/AppCleaner.app
 cask install clipmenu #/Applications/ClipMenu.app
-#cask install clipmenu #~/Applications/ClipMenu.app
 cask install dropbox #/Applications/Dropbox.app
-#cask install dropbox #~/Applications/Dropbox.app
 cask install evernote #/Applications/Evernote.app
 cask install google-chrome #/Applications/Google Chrome.app
-#cask install google-chrome #~/Applications/Google Chrome.app
 cask install google-japanese-ime #/Applications/GoogleJapaneseInput.localized
 cask install limechat #~/Applications/LimeChat.app
 
 # There are new version for following applications.
 cask install firefox #/Applications/Firefox.app
-#cask install firefox #~/Applications/Firefox.app
 cask install hyperswitch #/Applications/HyperSwitch.app
 cask install iterm2 #~/Applications/iTerm.app
 cask install macvim #~/Applications/MacVim.app
