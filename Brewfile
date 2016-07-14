@@ -5,6 +5,7 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
+cask 1password
 cask alfred
 cask appcleaner
 cask clipmenu
