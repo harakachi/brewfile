@@ -5,17 +5,21 @@
 tap caskroom/cask
 
 # Apps installed by Cask in caskroom/cask
-cask install appcleaner #~/Applications/AppCleaner.app
-cask install clipmenu #~/Applications/ClipMenu.app
-cask install dropbox #~/Applications/Dropbox.app
-cask install google-chrome #~/Applications/Google Chrome.app
+cask install appcleaner #/Applications/AppCleaner.app
+#cask install appcleaner #~/Applications/AppCleaner.app
+cask install clipmenu #/Applications/ClipMenu.app
+#cask install clipmenu #~/Applications/ClipMenu.app
+cask install dropbox #/Applications/Dropbox.app
+#cask install dropbox #~/Applications/Dropbox.app
+cask install evernote #/Applications/Evernote.app
+cask install google-chrome #/Applications/Google Chrome.app
+#cask install google-chrome #~/Applications/Google Chrome.app
 cask install google-japanese-ime #/Applications/GoogleJapaneseInput.localized
 cask install limechat #~/Applications/LimeChat.app
 
 # There are new version for following applications.
-cask install evernote #/Applications/Evernote.app
-#cask install evernote #~/Applications/Evernote.app
-cask install firefox #~/Applications/Firefox.app
+cask install firefox #/Applications/Firefox.app
+#cask install firefox #~/Applications/Firefox.app
 cask install hyperswitch #/Applications/HyperSwitch.app
 cask install iterm2 #~/Applications/iTerm.app
 cask install macvim #~/Applications/MacVim.app
@@ -30,6 +34,7 @@ cask install vagrant
 
 # Apps installed directly instead of by Cask in caskroom/cask
 #cask install 1password #/Applications/1Password 6.app
+#cask install alfred #/Applications/Alfred 3.app
 #cask install alfred #~/Applications/Alfred 2.app
 #cask install android-file-transfer #/Applications/Android File Transfer.app
 #cask install android-studio #/Applications/Android Studio.app
@@ -110,7 +115,6 @@ cask install java7
 #/Users/harada/Applications/Alfred Preferences.app
 #/Users/harada/Applications/Blue Jeans.app
 #/Users/harada/Applications/Chrome Apps.localized
-#/Users/harada/Applications/GitHub.app
 #/Users/harada/Applications/inhouse.app
 #/Applications/Utilities/Activity Monitor.app
 #/Applications/Utilities/Adobe AIR Application Installer.app
