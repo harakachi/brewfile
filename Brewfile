@@ -7,6 +7,8 @@ brew mas
 tap caskroom/cask
 cask 1password
 cask alfred
+cask android-file-transfer
+cask android-studio
 cask appcleaner
 cask clipmenu
 cask dropbox
@@ -16,6 +18,7 @@ cask google-chrome
 cask google-japanese-ime
 cask hyperswitch
 cask iterm2
+cask kindle
 cask limechat
 cask macvim
 cask mindnode-pro
