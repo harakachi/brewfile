@@ -5,8 +5,9 @@
 tap caskroom/cask
 
 # Apps installed by Cask in caskroom/cask
-cask install alfred #/Applications/Alfred 3.app
-#cask install alfred #~/Applications/Alfred 2.app
+cask install 1password #/Applications/1Password 6.app
+cask install android-file-transfer #/Applications/Android File Transfer.app
+cask install android-studio #/Applications/Android Studio.app
 cask install appcleaner #/Applications/AppCleaner.app
 #cask install appcleaner #~/Applications/AppCleaner.app
 cask install clipmenu #/Applications/ClipMenu.app
@@ -14,33 +15,33 @@ cask install clipmenu #/Applications/ClipMenu.app
 cask install dropbox #/Applications/Dropbox.app
 #cask install dropbox #~/Applications/Dropbox.app
 cask install evernote #/Applications/Evernote.app
+cask install firefox #/Applications/Firefox.app
+#cask install firefox #~/Applications/Firefox.app
 cask install google-chrome #/Applications/Google Chrome.app
 #cask install google-chrome #~/Applications/Google Chrome.app
 cask install google-japanese-ime #/Applications/GoogleJapaneseInput.localized
+cask install hyperswitch #/Applications/HyperSwitch.app
+cask install iterm2 #/Applications/iTerm.app
+#cask install iterm2 #~/Applications/iTerm.app
+cask install kindle #/Applications/Kindle.app
 cask install limechat #~/Applications/LimeChat.app
+cask install virtualbox #/Applications/VirtualBox.app
 
 # There are new version for following applications.
-cask install firefox #/Applications/Firefox.app
-#cask install firefox #~/Applications/Firefox.app
-cask install hyperswitch #/Applications/HyperSwitch.app
-cask install iterm2 #~/Applications/iTerm.app
 cask install macvim #~/Applications/MacVim.app
-cask install virtualbox #/Applications/VirtualBox.app
 cask install xquartz #/Applications/Utilities/XQuartz.app
 
 # Cask is found, but no applications are found (could be fonts, system settins, or installed in other directory.)
+cask install mindnode-pro
 
 # There are new version for following applications.
-cask install mindnode-pro
 cask install vagrant
 
 # Apps installed directly instead of by Cask in caskroom/cask
-#cask install 1password #/Applications/1Password 6.app
-#cask install android-file-transfer #/Applications/Android File Transfer.app
-#cask install android-studio #/Applications/Android Studio.app
+#cask install alfred #/Applications/Alfred 3.app
+#cask install alfred #~/Applications/Alfred 2.app
 #cask install filezilla #/Applications/FileZilla 2.app
 #cask install hipchat #~/Applications/HipChat.app
-#cask install kindle #/Applications/Kindle.app
 #cask install microsoft-office #/Applications/Microsoft Office 2011
 #cask install skype #/Applications/Skype.app
 #cask install slack #~/Applications/Slack 0.44.2.app
@@ -54,9 +55,6 @@ tap caskroom/versions
 # (fonts, system settins, or installed in other directory.)
 cask install java7
 
-# Apps installed directly instead of by Cask in caskroom/versions
-#cask install android-studio-canary #/Applications/Android Studio.app
-
 # Apps installed from AppStore
 458034879 Dash #/Applications/Dash.app
 682658836 GarageBand #/Applications/GarageBand.app
@@ -65,6 +63,7 @@ cask install java7
 478844335 Janetter #/Applications/Janetter.app
 409183694 Keynote #/Applications/Keynote.app
 715768417 Microsoft Remote Desktop #/Applications/Microsoft Remote Desktop.app
+402398561 MindNode Pro #/Applications/MindNode Pro.app
 409203825 Numbers #/Applications/Numbers.app
 409201541 Pages #/Applications/Pages.app
 568494494 Pocket #/Applications/Pocket.app
