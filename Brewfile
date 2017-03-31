@@ -5,12 +5,10 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
-cask 1password
 cask alfred
 cask android-file-transfer
 cask android-studio
 cask appcleaner
-cask clipmenu
 cask dropbox
 cask evernote
 cask firefox
@@ -67,10 +65,12 @@ brew libxml2
 brew libyaml
 brew memcached
 brew mercurial
-brew newt --with-python
+brew mysql@5.6
+brew newt
 brew nkf
 brew nodebrew
 brew openssl
+brew openssl@1.1
 brew packer
 brew pango
 brew pcre
@@ -82,8 +82,8 @@ brew python
 brew rbenv
 brew readline
 brew redis
-brew ruby-build
 brew ruby
+brew ruby-build
 brew s-lang
 brew sqlite
 brew tmux
@@ -94,7 +94,6 @@ brew xz
 brew zeromq
 
 tap homebrew/versions
-brew mysql56
 
 tap jawshooah/nodenv
 
@@ -104,18 +103,18 @@ brew brew-file
 tap sanemat/font
 
 # App Store applications
-appstore 458034879 Dash
-appstore 682658836 GarageBand
-appstore 478844335 Janetter
-appstore 409183694 Keynote
-appstore 715768417 Microsoft Remote Desktop
-appstore 402398561 MindNode Pro
-appstore 409203825 Numbers
-appstore 409201541 Pages
-appstore 568494494 Pocket
-appstore 803453959 Slack
-appstore 414298354 ToyViewer
-appstore 409789998 Twitter
-appstore 497799835 Xcode
-appstore 408981434 iMovie
-appstore 408981381 iPhoto
+appstore 458034879 Dash (2.2.5)
+appstore 682658836 GarageBand (10.1.2)
+appstore 408981434 iMovie (10.1.2)
+appstore 408981381 iPhoto (9.6.1)
+appstore 478844335 Janetter (4.3.2)
+appstore 409183694 Keynote (6.6.2)
+appstore 715768417 Microsoft Remote Desktop (8.0.27152)
+appstore 402398561 MindNode Pro (1.11.5)
+appstore 409203825 Numbers (3.6.2)
+appstore 409201541 Pages (5.6.2)
+appstore 568494494 Pocket (1.6.2)
+appstore 803453959 Slack (2.0.3)
+appstore 414298354 ToyViewer (5.4.0)
+appstore 409789998 Twitter (4.1.4)
+appstore 497799835 Xcode (7.3.1)

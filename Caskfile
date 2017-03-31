@@ -25,16 +25,15 @@ cask install iterm2 #/Applications/iTerm.app
 #cask install iterm2 #~/Applications/iTerm.app
 cask install kindle #/Applications/Kindle.app
 cask install limechat #~/Applications/LimeChat.app
+cask install macvim #/Applications/MacVim.app
+#cask install macvim #~/Applications/MacVim.app
 cask install virtualbox #/Applications/VirtualBox.app
 
 # There are new version for following applications.
-cask install macvim #~/Applications/MacVim.app
 cask install xquartz #/Applications/Utilities/XQuartz.app
 
 # Cask is found, but no applications are found (could be fonts, system settins, or installed in other directory.)
 cask install mindnode-pro
-
-# There are new version for following applications.
 cask install vagrant
 
 # Apps installed directly instead of by Cask in caskroom/cask
