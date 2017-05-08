@@ -17,6 +17,7 @@ cask google-japanese-ime
 cask hyperswitch
 cask iterm2
 cask kindle
+cask lastpass
 cask limechat
 cask macvim
 cask mindnode-pro
@@ -114,7 +115,6 @@ appstore 402398561 MindNode Pro (1.11.5)
 appstore 409203825 Numbers (3.6.2)
 appstore 409201541 Pages (5.6.2)
 appstore 568494494 Pocket (1.6.2)
-appstore 803453959 Slack (2.0.3)
 appstore 414298354 ToyViewer (5.4.0)
 appstore 409789998 Twitter (4.1.4)
 appstore 497799835 Xcode (7.3.1)
