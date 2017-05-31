@@ -27,7 +27,6 @@ cask virtualbox
 cask xquartz
 
 tap caskroom/versions
-cask java7
 
 tap homebrew/binary
 
@@ -56,6 +55,7 @@ brew gobject-introspection
 brew harfbuzz
 brew icu4c
 brew jpeg
+brew jq
 brew libevent
 brew libffi
 brew libpng
@@ -70,6 +70,7 @@ brew mysql@5.6
 brew newt
 brew nkf
 brew nodebrew
+brew oniguruma
 brew openssl
 brew openssl@1.1
 brew packer
@@ -102,6 +103,9 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
+
+# Cask applications
+cask java7
 
 # App Store applications
 appstore 458034879 Dash (2.2.5)
