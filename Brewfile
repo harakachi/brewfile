@@ -105,15 +105,16 @@ brew brew-file
 tap sanemat/font
 
 # App Store applications
-appstore 682658836 GarageBand (10.1.6)
-appstore 408981434 iMovie (10.1.4)
+appstore 682658836 GarageBand (10.2.0)
+appstore 408981434 iMovie (10.1.6)
 appstore 478844335 Janetter (4.4.0)
-appstore 409183694 Keynote (7.1.1)
+appstore 409183694 Keynote (7.2)
+appstore 926036361 LastPass (3.19.3)
 appstore 715768417 Microsoft Remote Desktop (8.0.27287)
 appstore 402398561 MindNode Pro (1.11.5)
-appstore 409203825 Numbers (4.1.1)
-appstore 409201541 Pages (6.1.1)
+appstore 409203825 Numbers (4.2)
+appstore 409201541 Pages (6.2)
 appstore 568494494 Pocket (1.6.2)
 appstore 414298354 ToyViewer (5.4.0)
 appstore 409789998 Twitter (4.3.2)
-appstore 497799835 Xcode (8.3.2)
+appstore 497799835 Xcode (8.3.3)
