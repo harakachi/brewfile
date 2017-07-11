@@ -16,6 +16,7 @@ cask google-chrome
 cask google-japanese-ime
 cask hyperswitch
 cask iterm2
+cask kindle
 cask lastpass
 cask limechat
 cask macvim
@@ -51,6 +52,7 @@ brew glib
 brew gnu-sed
 brew go
 brew gobject-introspection
+brew graphite2
 brew harfbuzz
 brew icu4c
 brew jpeg
@@ -110,11 +112,11 @@ appstore 408981434 iMovie (10.1.6)
 appstore 478844335 Janetter (4.4.0)
 appstore 409183694 Keynote (7.2)
 appstore 926036361 LastPass (3.19.3)
-appstore 715768417 Microsoft Remote Desktop (8.0.27287)
+appstore 715768417 Microsoft Remote Desktop (8.0.27310)
 appstore 402398561 MindNode Pro (1.11.5)
 appstore 409203825 Numbers (4.2)
 appstore 409201541 Pages (6.2)
 appstore 568494494 Pocket (1.6.2)
-appstore 414298354 ToyViewer (5.4.0)
+appstore 414298354 ToyViewer (5.5.1)
 appstore 409789998 Twitter (4.3.2)
 appstore 497799835 Xcode (8.3.3)
