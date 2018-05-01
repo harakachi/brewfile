@@ -93,7 +93,6 @@ cask hyperswitch
 cask iterm2
 cask kindle
 cask lastpass
-cask limechat
 cask macvim
 cask mindnode-pro
 cask slack
@@ -111,6 +110,9 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
+
+# Other Cask applications
+cask limechat
 
 # App Store applications
 appstore 682658836 GarageBand (10.2.0)
