@@ -80,25 +80,6 @@ tap homebrew/binary
 tap homebrew/versions
 
 tap caskroom/cask
-cask alfred
-cask android-file-transfer
-cask android-studio
-cask appcleaner
-cask dropbox
-cask evernote
-cask firefox
-cask google-chrome
-cask google-japanese-ime
-cask hyperswitch
-cask iterm2
-cask kindle
-cask lastpass
-cask macvim
-cask mindnode-pro
-cask slack
-cask vagrant
-cask virtualbox
-cask xquartz
 
 tap caskroom/versions
 
@@ -112,7 +93,26 @@ brew brew-file
 tap sanemat/font
 
 # Other Cask applications
+cask alfred
+cask android-file-transfer
+cask android-studio
+cask appcleaner
+cask dropbox
+cask evernote
+cask firefox
+cask google-chrome
+cask google-japanese-ime
+cask hyperswitch
+cask iterm2
+cask kindle
+cask lastpass
 cask limechat
+cask macvim
+cask mindnode-pro
+cask slack
+cask vagrant
+cask virtualbox
+cask xquartz
 
 # App Store applications
 appstore 682658836 GarageBand (10.2.0)
