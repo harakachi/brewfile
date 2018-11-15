@@ -7,15 +7,13 @@ brew ansible
 brew autoconf
 brew automake
 brew awscli
-brew boot2docker
 brew byobu
 brew cairo
 brew coreutils
 brew curl
 brew czmq
-brew docker
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libass --with-sdl2 --with-x265 --with-freetype --with-libvpx
+brew ffmpeg --with-fdk-aac --with-libass --with-freetype
 brew fontconfig
 brew fontforge
 brew freetype
