@@ -131,8 +131,9 @@ cask google-drive-file-stream
 cask hyperswitch
 cask kindle
 cask macvim
-cask slack
-cask virtualbox
+cask ngrok
+cask vagrant
+cask xquartz
 
 tap argon/mas
 
@@ -157,8 +158,8 @@ cask iterm2
 cask lastpass
 cask limechat
 cask mindnode-pro
-cask vagrant
-cask xquartz
+cask slack
+cask virtualbox
 
 # App Store applications
 appstore 682658836 GarageBand (10.2.0)
