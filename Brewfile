@@ -23,6 +23,7 @@ brew freetype
 brew fribidi
 brew gdbm
 brew gettext
+brew giflib
 brew git
 brew glib
 brew gnu-sed
@@ -46,11 +47,14 @@ brew libffi
 brew libgpg-error
 brew libidn2
 brew libogg
+brew libomp
 brew libpng
 brew libsodium
+brew libspiro
 brew libtermkey
 brew libtiff
 brew libtool
+brew libuninameslist
 brew libunistring
 brew libuv
 brew libvorbis
@@ -175,4 +179,4 @@ appstore 409201541 Pages (7.0.1)
 appstore 568494494 Pocket (1.7.9)
 appstore 414298354 ToyViewer (5.5.1)
 appstore 409789998 Twitter (4.3.2)
-appstore 497799835 Xcode (9.4)
+appstore 497799835 Xcode (10.1)
