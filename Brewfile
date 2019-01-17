@@ -162,6 +162,7 @@ cask virtualbox
 appstore 682658836 GarageBand (10.3.2)
 appstore 408981434 iMovie (10.1.10)
 appstore 409183694 Keynote (8.3)
+appstore 926036361 LastPass (4.3.0)
 appstore 409203825 Numbers (5.3)
 appstore 409201541 Pages (7.3)
 appstore 497799835 Xcode (10.1)
