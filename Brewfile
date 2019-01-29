@@ -16,10 +16,11 @@ brew czmq
 brew docker
 brew docker-machine
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libass --with-freetype
+brew ffmpeg
 brew fontconfig
 brew fontforge
 brew freetype
+brew frei0r
 brew fribidi
 brew gdbm
 brew gettext
@@ -79,6 +80,7 @@ brew nkf
 brew node
 brew nodebrew
 brew oniguruma
+brew opencore-amr
 brew openjpeg
 brew openssl
 brew openssl@1.1
@@ -98,11 +100,13 @@ brew python@2
 brew rbenv
 brew readline
 brew redis
+brew rtmpdump
 brew ruby
 brew ruby-build
 brew s-lang
 brew sdl2
 brew snappy
+brew speex
 brew sqlite
 brew telnet
 brew texi2html
@@ -118,6 +122,7 @@ brew x264
 brew x265
 brew xvid
 brew xz
+brew yarn
 brew zeromq
 
 tap homebrew/cask-versions
@@ -165,4 +170,6 @@ appstore 409183694 Keynote (8.3)
 appstore 926036361 LastPass (4.3.0)
 appstore 409203825 Numbers (5.3)
 appstore 409201541 Pages (7.3)
+appstore 568494494 Pocket (1.8.1)
+appstore 803453959 Slack (3.3.7)
 appstore 497799835 Xcode (10.1)
