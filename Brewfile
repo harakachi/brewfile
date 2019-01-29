@@ -32,6 +32,7 @@ brew go
 brew gobject-introspection
 brew graphite2
 brew harfbuzz
+brew hugo
 brew icu4c
 brew imagemagick
 brew imagemagick@6
