@@ -4,6 +4,7 @@
 tap homebrew/core
 brew ack
 brew ansible
+brew aom
 brew autoconf
 brew automake
 brew awscli
@@ -17,6 +18,7 @@ brew docker
 brew docker-machine
 brew fdk-aac
 brew ffmpeg
+brew flac
 brew fontconfig
 brew fontforge
 brew freetype
@@ -27,13 +29,16 @@ brew gettext
 brew giflib
 brew git
 brew glib
+brew gmp
 brew gnu-sed
+brew gnutls
 brew go
 brew gobject-introspection
 brew graphite2
 brew harfbuzz
 brew hugo
 brew icu4c
+brew ilmbase
 brew imagemagick
 brew imagemagick@6
 brew jemalloc
@@ -42,17 +47,26 @@ brew jq
 brew kubernetes-helm
 brew lame
 brew lastpass-cli
+brew leptonica
 brew libass
 brew libassuan
+brew libbluray
+brew libde265
+brew libestr
 brew libevent
 brew libffi
 brew libgpg-error
+brew libheif
 brew libidn2
 brew libogg
 brew libomp
 brew libpng
+brew libsamplerate
+brew libsndfile
 brew libsodium
+brew libsoxr
 brew libspiro
+brew libtasn1
 brew libtermkey
 brew libtiff
 brew libtool
@@ -75,6 +89,7 @@ brew mysql-client
 brew mysql@5.6
 brew nasm
 brew neovim
+brew nettle
 brew newt
 brew nginx
 brew nkf
@@ -82,10 +97,12 @@ brew node
 brew nodebrew
 brew oniguruma
 brew opencore-amr
+brew openexr
 brew openjpeg
 brew openssl
 brew openssl@1.1
 brew opus
+brew p11-kit
 brew packer
 brew pango
 brew pcre
@@ -101,20 +118,25 @@ brew python@2
 brew rbenv
 brew readline
 brew redis
+brew rsyslog
 brew rtmpdump
+brew rubberband
 brew ruby
 brew ruby-build
 brew s-lang
 brew sdl2
+brew shared-mime-info
 brew snappy
 brew speex
 brew sqlite
 brew telnet
+brew tesseract
 brew texi2html
 brew theora
 brew tmux
 brew trash
 brew tree
+brew unbound
 brew unibilium
 brew vim
 brew webp
@@ -131,14 +153,14 @@ tap homebrew/cask-versions
 tap homebrew/cask
 cask alfred
 cask android-studio
-cask dropbox
-cask firefox
-cask google-drive-file-stream
-cask hyperswitch
-cask kindle
-cask ngrok
-cask vagrant
-cask xquartz
+cask clipy
+cask evernote
+cask google-chrome
+cask google-japanese-ime
+cask iterm2
+cask macvim
+cask slack
+cask virtualbox
 
 tap argon/mas
 
@@ -156,13 +178,14 @@ tap sanemat/font
 # Other Cask applications
 cask android-file-transfer
 cask appcleaner
-cask evernote
-cask google-chrome
-cask google-japanese-ime
-cask iterm2
-cask macvim
-cask slack
-cask virtualbox
+cask dropbox
+cask firefox
+cask google-drive-file-stream
+cask hyperswitch
+cask kindle
+cask ngrok
+cask vagrant
+cask xquartz
 
 # App Store applications
 appstore 682658836 GarageBand (10.3.2)
