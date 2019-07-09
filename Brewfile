@@ -113,7 +113,6 @@ brew pinentry
 brew pixman
 brew pkg-config
 brew popt
-brew postgresql
 brew python
 brew python@2
 brew rbenv
