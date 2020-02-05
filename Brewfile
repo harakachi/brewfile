@@ -167,9 +167,6 @@ cask virtualbox
 
 tap argon/mas
 
-tap codeclimate/formulae
-brew codeclimate
-
 tap heroku/brew
 brew heroku
 brew heroku-node
