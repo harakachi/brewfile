@@ -28,6 +28,7 @@ brew gdbm
 brew gettext
 brew giflib
 brew git
+brew git-lfs
 brew glib
 brew gmp
 brew gnu-sed
@@ -117,6 +118,7 @@ brew popt
 brew postgresql
 brew python
 brew python@2
+brew python@3.8
 brew rbenv
 brew readline
 brew redis
@@ -155,17 +157,29 @@ tap homebrew/cask-versions
 
 tap homebrew/cask
 cask alfred
+cask android-file-transfer
 cask android-studio
+cask appcleaner
 cask clipy
+cask dropbox
 cask evernote
+cask firefox
 cask google-chrome
+cask google-drive-file-stream
 cask google-japanese-ime
+cask hyperswitch
 cask iterm2
+cask kindle
 cask macvim
+cask ngrok
 cask slack
+cask vagrant
 cask virtualbox
+cask xquartz
 
 tap argon/mas
+
+tap codeclimate/formulae
 
 tap heroku/brew
 brew heroku
@@ -178,26 +192,18 @@ brew brew-file
 
 tap sanemat/font
 
-# Other Cask applications
-cask android-file-transfer
-cask appcleaner
-cask dropbox
-cask firefox
-cask google-drive-file-stream
-cask hyperswitch
-cask kindle
-cask ngrok
-cask vagrant
-cask xquartz
+tap stripe/stripe-cli
+brew stripe
 
 # App Store applications
-appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.12)
-appstore 409183694 Keynote (9.1)
+appstore 682658836 GarageBand (10.3.4)
+appstore 408981434 iMovie (10.1.14)
+appstore 409183694 Keynote (9.2.1)
 appstore 926036361 LastPass (4.4.0)
-appstore 539883307 LINE (5.19.0)
-appstore 409203825 Numbers (6.1)
-appstore 409201541 Pages (8.1)
-appstore 568494494 Pocket (1.8.2)
-appstore 803453959 Slack (4.0.3)
-appstore 497799835 Xcode (11.2.1)
+appstore 539883307 LINE (5.21.3)
+appstore 409203825 Numbers (6.2.1)
+appstore 409201541 Pages (8.2.1)
+appstore 568494494 Pocket (1.8.5)
+appstore 803453959 Slack (4.2.0)
+appstore 425424353 The Unarchiver (4.1.0)
+appstore 497799835 Xcode (11.3.1)
