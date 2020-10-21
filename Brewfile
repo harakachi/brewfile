@@ -1,209 +1,181 @@
+# Brewfile
+cask_args appdir: "/Applications"
 
-# tap repositories and their packages
+tap "argon/mas"
+tap "codeclimate/formulae"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "jawshooah/nodenv"
+tap "rcmdnk/file"
+tap "sanemat/font"
+tap "stripe/stripe-cli"
 
-tap homebrew/core
-brew ack
-brew ansible
-brew aom
-brew autoconf
-brew automake
-brew awscli
-brew byobu
-brew cairo
-brew circleci
-brew coreutils
-brew curl
-brew czmq
-brew docker
-brew docker-machine
-brew fdk-aac
-brew ffmpeg
-brew flac
-brew fontconfig
-brew fontforge
-brew freetype
-brew frei0r
-brew fribidi
-brew gdbm
-brew gettext
-brew giflib
-brew git
-brew git-lfs
-brew glib
-brew gmp
-brew gnu-sed
-brew gnutls
-brew go
-brew gobject-introspection
-brew graphite2
-brew harfbuzz
-brew helm
-brew hugo
-brew icu4c
-brew ilmbase
-brew imagemagick
-brew imagemagick@6
-brew jemalloc
-brew jpeg
-brew jq
-brew lame
-brew lastpass-cli
-brew leptonica
-brew libass
-brew libassuan
-brew libbluray
-brew libde265
-brew libestr
-brew libevent
-brew libffi
-brew libgpg-error
-brew libheif
-brew libidn2
-brew libogg
-brew libomp
-brew libpng
-brew libsamplerate
-brew libsndfile
-brew libsodium
-brew libsoxr
-brew libspiro
-brew libtasn1
-brew libtermkey
-brew libtiff
-brew libtool
-brew libuninameslist
-brew libunistring
-brew libuv
-brew libvidstab
-brew libvorbis
-brew libvpx
-brew libvterm
-brew libxml2
-brew libyaml
-brew little-cms2
-brew lua
-brew luajit
-brew lzo
-brew mas
-brew memcached
-brew mercurial
-brew msgpack
-brew mysql-client
-brew mysql@5.6
-brew nasm
-brew ncurses
-brew neovim
-brew nettle
-brew newt
-brew nginx
-brew nkf
-brew node
-brew nodebrew
-brew oniguruma
-brew opencore-amr
-brew openexr
-brew openjpeg
-brew openssl@1.1
-brew opus
-brew p11-kit
-brew packer
-brew pango
-brew pcre
-brew pcre2
-brew perl
-brew pinentry
-brew pixman
-brew pkg-config
-brew popt
-brew postgresql
-brew python
-brew python@2
-brew python@3.8
-brew rbenv
-brew readline
-brew redis
-brew ripgrep
-brew rsyslog
-brew rtmpdump
-brew rubberband
-brew ruby
-brew ruby-build
-brew s-lang
-brew sdl2
-brew shared-mime-info
-brew snappy
-brew speex
-brew sqlite
-brew telnet
-brew tesseract
-brew texi2html
-brew theora
-brew tmux
-brew trash
-brew tree
-brew unbound
-brew unibilium
-brew vim
-brew webp
-brew wget
-brew x264
-brew x265
-brew xvid
-brew xz
-brew yarn
-brew zeromq
-
-tap homebrew/cask-versions
-
-tap homebrew/cask
-cask alfred
-cask android-file-transfer
-cask android-studio
-cask appcleaner
-cask clipy
-cask dropbox
-cask evernote
-cask firefox
-cask google-chrome
-cask google-drive-file-stream
-cask google-japanese-ime
-cask hyperswitch
-cask iterm2
-cask kindle
-cask macvim
-cask ngrok
-cask slack
-cask vagrant
-cask virtualbox
-cask xquartz
-
-tap argon/mas
-
-tap codeclimate/formulae
-
-tap heroku/brew
-brew heroku
-brew heroku-node
-
-tap jawshooah/nodenv
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-
-tap stripe/stripe-cli
-brew stripe
-
-# App Store applications
-appstore 682658836 GarageBand (10.3.4)
-appstore 408981434 iMovie (10.1.14)
-appstore 409183694 Keynote (9.2.1)
-appstore 926036361 LastPass (4.4.0)
-appstore 539883307 LINE (5.21.3)
-appstore 409203825 Numbers (6.2.1)
-appstore 409201541 Pages (8.2.1)
-appstore 568494494 Pocket (1.8.5)
-appstore 803453959 Slack (4.2.0)
-appstore 425424353 The Unarchiver (4.1.0)
-appstore 497799835 Xcode (11.3.1)
+brew "ack"
+brew "gdbm"
+brew "libyaml"
+brew "openssl@1.1"
+brew "gettext"
+brew "readline"
+brew "sqlite"
+brew "xz"
+brew "ansible"
+brew "autoconf"
+brew "automake"
+brew "awscli"
+brew "coreutils"
+brew "gnu-sed"
+brew "libevent"
+brew "libpng"
+brew "popt"
+brew "s-lang"
+brew "newt"
+brew "freetype"
+brew "fontconfig"
+brew "libffi"
+brew "pcre"
+brew "python@3.8", link: false
+brew "glib"
+brew "pixman"
+brew "cairo"
+brew "circleci"
+brew "csvkit"
+brew "curl"
+brew "zeromq"
+brew "czmq"
+brew "direnv"
+brew "docker", link: false
+brew "docker-machine", link: false
+brew "fdk-aac"
+brew "libogg"
+brew "fribidi"
+brew "giflib"
+brew "libtool"
+brew "libunistring"
+brew "pkg-config"
+brew "libidn2"
+brew "gobject-introspection"
+brew "graphite2"
+brew "icu4c"
+brew "harfbuzz"
+brew "jpeg"
+brew "lame"
+brew "libtiff"
+brew "little-cms2"
+brew "openjpeg"
+brew "webp"
+brew "libass"
+brew "libvorbis"
+brew "opus"
+brew "libvpx"
+brew "sdl2"
+brew "snappy"
+brew "theora"
+brew "x264"
+brew "x265"
+brew "xvid"
+brew "ffmpeg"
+brew "libspiro"
+brew "libuninameslist"
+brew "pango"
+brew "fontforge"
+brew "pcre2"
+brew "git"
+brew "git-flow"
+brew "git-lfs"
+brew "go"
+brew "graphviz"
+brew "helm", link: false
+brew "hugo"
+brew "libomp"
+brew "imagemagick"
+brew "imagemagick@6"
+brew "jemalloc"
+brew "oniguruma"
+brew "jq"
+brew "kubectx"
+brew "libgpg-error"
+brew "libassuan"
+brew "pinentry"
+brew "lastpass-cli"
+brew "libsodium"
+brew "unibilium"
+brew "libtermkey"
+brew "libuv"
+brew "libvterm"
+brew "libxml2"
+brew "lua"
+brew "luajit"
+brew "memcached"
+brew "mercurial"
+brew "msgpack"
+brew "mysql-client"
+brew "mysql@5.6"
+brew "mysql@5.7"
+brew "nasm"
+brew "neovim"
+brew "nginx"
+brew "nkf"
+brew "node"
+brew "nodebrew"
+brew "packer"
+brew "perl"
+brew "postgresql"
+brew "pup"
+brew "putty"
+brew "python@2", link: false
+brew "ruby-build"
+brew "rbenv"
+brew "redis"
+brew "ripgrep"
+brew "rsyslog"
+brew "ruby"
+brew "s3cmd"
+brew "stern"
+brew "telnet"
+brew "texi2html"
+brew "trash"
+brew "tree"
+brew "v8@3.15"
+brew "vim"
+brew "wget"
+brew "yarn"
+brew "argon/mas/mas"
+brew "heroku/brew/heroku-node"
+brew "heroku/brew/heroku"
+brew "stripe/stripe-cli/stripe"
+cask "alfred"
+cask "android-file-transfer"
+cask "android-studio"
+cask "appcleaner"
+cask "clipy"
+cask "dropbox"
+cask "evernote"
+cask "firefox"
+cask "google-chrome"
+cask "google-drive-file-stream"
+cask "google-japanese-ime"
+cask "hyperswitch"
+cask "iterm2"
+cask "kindle"
+cask "macvim"
+cask "ngrok"
+cask "slack"
+cask "vagrant"
+cask "virtualbox"
+cask "xquartz"
+mas "Amphetamine", id: 937984704
+mas "feedly", id: 865500966
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LastPass", id: 926036361
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pocket", id: 568494494
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
